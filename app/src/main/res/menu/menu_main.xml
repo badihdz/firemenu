@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pruebas.firemenu.MainActivity">
+    <item
+        android:id="@+id/icon_add"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add"/>
+    <item
+        android:id="@+id/icon_actualizar"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_actualizar"/>
+    <item
+        android:id="@+id/icon_clear"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_clear"/>
+
+    <item
+        android:id="@+id/icon_delete"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_delete"/>
+</menu>
